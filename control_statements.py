@@ -1,0 +1,83 @@
+# KARAR & KONTROL YAPILARI
+
+
+# True-False Sorgulamaları
+
+sinir = 5000
+
+print(sinir == 4000)
+print(sinir == 500)
+print(5 == 4)
+print(5 == 5)
+print(0)
+
+# if
+
+sinir = 50000
+gelir = 60000
+
+print(gelir < sinir)
+
+
+if gelir < sinir:
+    print("Gelir sinirdan kucuk")
+
+if gelir > sinir:
+    print("Gelir sinirdan kucuk")
+
+# else
+
+sinir = 50000
+gelir = 35000
+
+if gelir > sinir:
+    print("Gelir sinirdan buyuk")
+else:
+    print("Gelir sinirdan kucuk")
+
+
+sinir = 50000
+gelir = 50000
+
+if gelir == sinir:
+    print("Gelir sinira esittir")
+else:
+    print("Gelir sinira esit degildir")
+
+
+sinir = 50000
+gelir1 = 60000
+gelir2 = 50000
+gelir3 = 35000
+
+if gelir1 > sinir:
+    print("Tebrikler, hediye kazandiniz.")
+elif gelir1 < sinir:
+    print("Uyari!")
+else:
+    print("Takibe devam")
+
+if gelir3 > sinir:
+    print("Tebrikler, hediye kazandiniz.")
+elif gelir3 < sinir:
+    print("Uyari!")
+else:
+    print("Takibe devam")
+
+if gelir2 > sinir:
+    print("Tebrikler, hediye kazandiniz.")
+elif gelir2 < sinir:
+    print("Uyari!")
+else:
+    print("Takibe devam")
+
+sinir = 50000
+magaza_adi = input("Magaza Adi Nedir?")
+gelir = int(input("Gelirinizi Giriniz:"))
+
+if gelir > sinir:
+    print("Tebrikler:" + magaza_adi + " promosyon kazandiniz!")
+elif gelir < sinir:
+    print("Uyari! Cok dusuk gelir:" + str(gelir))
+else:
+    print("Takibe devam")
